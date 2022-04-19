@@ -1,0 +1,29 @@
+
+.header-top{
+    background-color: black;
+}
+
+.sony-logo{
+    width: 80px;
+}
+
+.nav-item a{
+    display: flex;
+    align-items:baseline;
+    font-weight: bold;
+}
+
+.fa-angle-down{
+    font-size: 12px;
+    color:grey;
+}
+
+
+/* BOTTONI----------  */
+
+.btn-login{
+    background-color:#363636;
+    border-radius: 30px;
+    border:none; 
+    color:white; 
+}
