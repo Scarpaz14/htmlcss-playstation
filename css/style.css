@@ -1,4 +1,5 @@
 
+/* HEADER---------  */
 .header-top{
     background-color: black;
 }
@@ -27,3 +28,38 @@
     border:none; 
     color:white; 
 }
+
+.btn-buy{
+    background-color:#cd3d0f;
+    border-radius: 30px;
+    border:none; 
+    color:white; 
+
+}
+
+
+/* MAIN------------  */
+
+.hero{
+height: 750px;
+background-image: url(../img/jumbo-bg.png);
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+
+.returnal{
+    width: 300px;
+}
+
+.custom{
+    width: 100%;
+    padding-top: 300px;
+}
+
+.game{
+    border-radius: 30px;
+}
+
+
+
