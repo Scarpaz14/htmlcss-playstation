@@ -47,6 +47,13 @@ header{
     border-radius: 30px;
     border:none; 
     color:white; 
+}
+
+.btn_plus{
+    background-color:#d9dadc;
+    border-radius: 30px;
+    border:none; 
+    color:#2d64e6;
 
 }
 
@@ -87,6 +94,10 @@ background-position:center;
 
 .new-game{
     background-color:#1f1f1f ;
+}
+
+.plus{
+    max-width: 60%;
 }
 
 
