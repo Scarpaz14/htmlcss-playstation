@@ -1,5 +1,11 @@
 
 /* HEADER---------  */
+header{
+    position: fixed;
+    width: 100%; 
+    z-index: 10;
+}
+
 .header-top{
     background-color: black;
 }
@@ -22,15 +28,22 @@
 
 /* BOTTONI----------  */
 
-.btn-login{
+.btn_login{
     background-color:#363636;
     border-radius: 30px;
     border:none; 
     color:white; 
 }
 
-.btn-buy{
+.btn_buy{
     background-color:#cd3d0f;
+    border-radius: 30px;
+    border:none; 
+    color:white; 
+}
+
+.btn_info{
+    background-color:#2d64e6;
     border-radius: 30px;
     border:none; 
     color:white; 
@@ -40,12 +53,16 @@
 
 /* MAIN------------  */
 
+main{
+padding: 100px 0px;
+}
+
 .hero{
 height: 750px;
 background-image: url(../img/jumbo-bg.png);
 background-repeat: no-repeat;
 background-size: cover;
-background-position: center;
+background-position:center;
 }
 
 .returnal{
@@ -53,7 +70,6 @@ background-position: center;
 }
 
 .custom{
-    width: 100%;
     padding-top: 300px;
 }
 
